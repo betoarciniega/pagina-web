@@ -9,6 +9,7 @@ header{
 	text-align: center;
 	margin: 0 auto;
 	padding: 1em;
+	color: #1A4202;
 	
 }
 h1{
@@ -37,14 +38,20 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+	header{
+		padding: 0.2em;
+	}
 	header h1{
+		margin:0.2em; 
 		font-size:2em;
+		margin: 0.5em;
 	}
 	header h2{
 		font-size: 1.2em;
+		margin:0.2em;
 	}
 	footer {
-		padding: 0.5em;
+		
 		font-size: 1em;
 		background: #80AC58;
 		border-top: 1px solid #666;
